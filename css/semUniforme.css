@@ -24,19 +24,16 @@ h3{
 
 #boas_vindas{
     width: 100%;
-	height: 17vw;
     text-align: center;
     /* background-color: chocolate; */
 }
 
 #h1_index{
-    
     font: 4rem 'Roboto 900', sans-serif;
     /* background-color: chartreuse; */
 }
 
 #h3_boas_vindas{
-    /* width: 10px; */
     font: 1.5rem 'Roboto', sans-serif;
     /* background-color: darkblue; */
 }
@@ -97,10 +94,11 @@ footer{
 /*===========Pag: selecao_turma===================*/
 
 .button_serie{
-    width: 13%;
-    height: 60px;
-    padding: 5px 10px;
-    margin-top: 20px;
+    width: 80%;
+    /* margin: 0 auto; */
+    /* height: 50px; */
+    /* padding: 5px 10px; */
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: #36963F;
@@ -108,7 +106,21 @@ footer{
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
 }
+/* .button_serie a{ */
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    /* text-decoration: none; */
+    /* color: white; */
+    /* font: 1.5rem 'Roboto', sans-serif; */
+/* }  */
 
+/* .button_serie img{ */
+    /* width: 50px; */
+    /* height: 55px; */
+    /* float: right; */
+    /* margin-right: 10px; */
+
+/* } */
 .button_serie a{
     text-decoration: none;
     color: white;
