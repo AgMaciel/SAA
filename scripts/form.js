@@ -3,8 +3,14 @@ function closeForm() {
     formContainer.style.display = 'none';
 }
 
+const addloading = () => {
+        const button = document.querySelector('.button');
+        button.innerHTML = '<https://agmaciel.github.io/SAA/pages/inclusao.html"></i>';
+}
+
 const handleSubmit = (event) => {
     event.preventDefault();
+
 
     const nomeOuEmail = document.querySelector('input[name="nomeOuEmail"]').value;
     const senha = document.querySelector('input[name="senha"]').value;
@@ -22,4 +28,4 @@ const handleSubmit = (event) => {
     });
 }
 
-document.querySelector('form').addEventListener('submit', handleSubmit);
+document.querySelector('entrar').addEventListener('submit', handleSubmit);
