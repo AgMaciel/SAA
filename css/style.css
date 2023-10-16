@@ -94,7 +94,12 @@ footer{
     font: 0.8rem 'Roboto', sans-serif;
     color: white;
     text-align: center;
+<<<<<<< HEAD
     padding-top: 10px 0px;
+=======
+    padding-top: 10px;
+
+>>>>>>> d76bb3abcea89f5d45e06b4bf020286e66eb7d7d
 }
 
 /*===========Pag: selecao_turma===================*/
@@ -119,8 +124,114 @@ footer{
 }
 
 
+<<<<<<< HEAD
 /* Media Query */
 
 @media screen and (width: 720px) and (height: 1640px) {
     /* Suas regras CSS para essa resolução específica */
+=======
+
+
+
+
+
+/* Media Query */
+/* Estilos para o iPhone 12 Pro em modo retrato */
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    body {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        /* background-color: aqua; */
+    }
+    #img_logo{
+        height: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+    h3{
+        text-align: center;
+    }
+    #boas_vindas{
+        width: 100%;
+        height: 17vw;
+        text-align: center;
+        /* background-color: chocolate; */
+    }
+    #h1_index{
+        
+        font: 2rem 'Roboto 900', sans-serif;
+        /* background-color: chartreuse; */
+    }
+    #h3_boas_vindas{
+       
+        font: 0.8rem 'Roboto', sans-serif;
+        /* background-color: darkblue; */
+    }
+    .h3_nome_sistema{
+        font: .8rem 'Roboto 400', sans-serif;
+        font-weight: bold
+    }
+
+    nav{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        /* background-color: #67c4f0; */
+    }
+    .button_link{
+        width: 160%;
+        padding: 10px 10px;
+        margin-top: 50px;
+        margin-left: 100px;
+        
+        background-color: #36963F;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+    }
+    .button_link a{
+        text-decoration: none;
+        color: white;
+        font: 1.5rem 'Roboto', sans-serif;
+    }
+    .button_link_sair{
+        width: 30%;
+        padding: 5px 10px;
+        margin-top: 20px;
+        background-color: #D41B1B;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+    }
+    .button_link_sair a{
+        text-decoration: none;
+        color: white;
+        font: 1.5rem 'Roboto', sans-serif;
+    }
+    .h3_nome_sistema{
+        font: 1.5rem 'Roboto 400', sans-serif;
+        font-weight: bold
+    }
+    section{
+        width: 100%;
+        height: 100%;
+        /* background-color: #67c4f0; */
+    }
+    footer{
+        width: 100%;
+        height: 4vw;
+        background-color: rgb(0, 0, 0);
+        font: 0.8rem 'Roboto', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    
+    }
+>>>>>>> d76bb3abcea89f5d45e06b4bf020286e66eb7d7d
   }
