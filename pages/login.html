@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-brs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-title {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .close-button {
+            float: right;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .close-button:hover {
+            color: red;
+        }
+
+        .form-input {
+            width: 95%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-button {
+            width: 50%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .form-button:hover {
+            background-color: #0056b3;
+        }
+
+        .forgot-password {
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .divider {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <button class="close-button" onclick="closeForm()">X</button><br>
+        <h2 class="form-title">RIA <br>Registro Individual do Aluno</h2><br>
+        <h2 class="form-title">LOGIN</h2>
+        <br>
+        <input type="text" class="form-input" placeholder="Nome ou E-mail">
+        <br>
+        <input type="password" class="form-input" placeholder="Senha">
+        <br>
+        <br>
+        <button class="form-button">Entrar</button><br>
+        <div class="forgot-password"><br>
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+        <div class="divider">
+            <hr>
+            <p>Não é cadastrado? <a href="#">Criar nova conta hoje</a></p>
+            
+
+            <!-- Adicione a imagem aqui -->
+        <img width="70px" src="../meuprojeto/img/IFBVertical.png" alt="Imagem" class="bottom-image">
+        </div>
+    </div>
+
+    <script>
+        // Função para fechar o formulário
+        function closeForm() {
+            var formContainer = document.querySelector('.form-container');
+            formContainer.style.display = 'none';
+        }
+    </script>
+    
+</body>
+</html>
