@@ -5,7 +5,7 @@ function closeForm() {
 
 const addloading = () => {
         const button = document.querySelector('.button');
-        button.innerHTML = '<https://agmaciel.github.io/SAA/pages/inclusao.html"></i>';
+        button.innerHTML = '<https://agmaciel.github.io/SAA/pages/inclusao.html">';
 }
 
 const handleSubmit = (event) => {
@@ -29,3 +29,13 @@ const handleSubmit = (event) => {
 }
 
 document.querySelector('entrar').addEventListener('submit', handleSubmit);
+
+// Fazer uma solicitação GET para a API
+fetch('URL_DA_SUA_API')
+  .then(response => response.json())
+  .then(data => {
+    // Processar os dados e exibi-los na página
+    const element = document.getElementById('nomeOuEmail');
+    element.innerHTML = data.nomeOuEmail; // Substitua 'valor' pelo campo que deseja exibir
+  })
+  .catch(error => console.error('Erro na solicitação:', error));

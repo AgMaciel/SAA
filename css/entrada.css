@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/* Estilizando o formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto; /* Centralizar o formulário na página */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+h1{
+    color: #1b6e28;
+    text-align: center;
+}
+/* Estilizando os campos do formulário */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilizando os botões */
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    align-items: center;
+}
+
+
+/* Ajustando o estilo do botão "Incluir" */
+form button:first-child {
+    background-color: #28a745;
+
+}
+
+form button:first-child:hover {
+    background-color: #1b6e28;
+}
