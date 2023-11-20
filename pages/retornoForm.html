@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/form.css">
+  <title>Consulta</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta</h1>
+    <form id="consultaForm">
+      <label for="cpfConsulta">CPF:</label>
+      <input type="text" id="cpfConsulta" name="cpfConsulta">
+
+      <label for="nomeConsulta">Nome:</label>
+      <input type="text" id="nomeConsulta" name="nomeConsulta">
+
+      <!-- Adicione outros campos de consulta conforme necessário -->
+
+      <button type="button" onclick="submitConsulta()">Consultar</button>
+    </form>
+
+    <div id="resultadoConsulta">
+      <!-- Aqui você pode exibir os resultados da consulta -->
+    </div>
+  </div>
+
+  <script src="scriptConsulta.js"></script>
+</body>
+</html>
